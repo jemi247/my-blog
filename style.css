@@ -1,0 +1,140 @@
+/* ----- Global Styles ---- */
+body {
+background-color: #F9F9F9; /* Light gray background */
+color: #333333; /* Dark gray text */
+font-family: Arial, sans-serif;
+line-height: 1.6;
+margin: 0;
+padding: 0;
+}
+
+/* ----- Header / Welcome Section ----- */
+body header.welcome-header {
+background-color: #C8A2C8 !important; /* Lilac */
+color: white !important;
+text-align: center;
+padding: 60px 20px;
+}
+
+/* #home-header { 
+background-color: #C8A2C8 !important;
+} */
+
+body header.welcome-header h1 {
+font-size: 2.8rem;
+margin-bottom: 10px;
+}
+
+body header.welcome-header p {
+font-size: 1.2rem;
+}
+
+/* ----- Navigation ----- */
+nav a {
+color: #333333;
+text-decoration: none;
+margin: 0 10px;
+transition: color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+color: #9B5DE5; /* Deep Purple for hover/active */
+}
+
+/* ----- Links ----- */
+a {
+color: #FF6B6B; /* Coral Pink */
+text-decoration: none;
+transition: color 0.3s;
+}
+
+a:hover {
+color: #E64C4C; /* Dark Coral */
+}
+
+/* ----- Buttons -----*/
+.btn-primary {
+background-color: #9B5DE5; /* Deep Purple */
+border-color: #9B5DE5;
+transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+background-color: #7A3FBF; /* Medium Purple */
+}
+
+/* ----- Blog Cards (Homepage & Posts) -----*/
+.card {
+border: none;
+border-radius: 10px;
+overflow: hidden;
+transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+color: #4D96FF; /* Blue headings */
+}
+
+.card-text {
+color: #333333;
+}
+
+/* ----- Gallery Page ----- */
+.gallery img {
+width: 100%;
+border-radius: 10px;
+margin-bottom: 20px;
+transition: transform 0.3s;
+}
+
+.gallery img:hover {
+transform: scale(1.05);
+}
+
+/* ----- Contact Form ----- */
+form {
+background-color: #ffffff;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+border-radius: 5px;
+border: 1px solid #ccc;
+}
+
+form input:focus,
+form textarea:focus {
+outline: none;
+border-color: #9B5DE5; /* Deep Purple */
+box-shadow: 0 0 5px rgba(155, 93, 229, 0.5);
+}
+
+/* ----- Footer ----- */
+footer {
+background-color: #B185B1; /* Darker Lilac */
+color: #FFFFFF;
+text-align: center;
+padding: 20px 0;
+}
+
+/* ----- Responsive Adjustments -----*/
+@media (max-width: 768px) {
+header h1 {
+font-size: 2rem;
+}
+header p {
+font-size: 1rem;
+}
+nav a {
+margin: 0 5px;
+}
+}
